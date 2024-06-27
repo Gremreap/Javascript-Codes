@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in Javascript</title>
+    <link rel="stylesheet" href="DAY7.css">
+</head>
+<body>
+    <!--inline event handelling-->
+    <button onclick="console.log('button was clicked');alert('hello')">click me!!</button>
+    <button ondblclick="console.log('button was clicked two times')">click me 2 times</button>
+
+    <!--priority is given to js code rather than inline code-->
+    <!--overwriting possible in js-->
+    <div id="division">
+        This is a box!!
+    </div>
+
+    <button id="btn1">Button1</button>
+
+    <!--toggle button for dark and light mode-->
+    <button id="mode">change mode</button>
+    <script src="DAY7.js"></script>
+
+
+</body>
+</html>
